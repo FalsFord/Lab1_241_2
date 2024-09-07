@@ -1,0 +1,4 @@
+﻿  Task2.c
+D:\Lab1_241_2\Labs_1st_smstr\1st_Lab\1Lab\Task2\Task2.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Lab1_241_2\Labs_1st_smstr\1st_Lab\1Lab\Task2\Task2.c(17,2): warning C4098: main: функция типа "void", возвращающая значение
+  Task2.vcxproj -> D:\Lab1_241_2\Labs_1st_smstr\1st_Lab\1Lab\Task1\x64\Debug\Task2.exe
