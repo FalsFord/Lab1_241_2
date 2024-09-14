@@ -1,0 +1,4 @@
+﻿  Task3.c
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\2nd_Lab\Task3\Task3.c(13,6): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\2nd_Lab\Task3\Task3.c(14,6): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Task3.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\2nd_Lab\Task1\x64\Debug\Task3.exe
