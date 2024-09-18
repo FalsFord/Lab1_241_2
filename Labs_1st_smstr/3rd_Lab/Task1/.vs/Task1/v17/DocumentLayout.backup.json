@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\",
+  "WorkspaceRootPath": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD02B2C6-4279-4E82-BB5E-76D900203873}|..\\Task4(homework)\\Task4(homework).vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD02B2C6-4279-4E82-BB5E-76D900203873}|..\\Task4(homework)\\Task4(homework).vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E66F828-CC8C-444A-94D1-AB2A6621D3EF}|..\\Task3\\Task3.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5E66F828-CC8C-444A-94D1-AB2A6621D3EF}|..\\Task3\\Task3.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A04D481-09C1-42DD-8EB1-3FC8665B88F6}|..\\Task2\\Task2.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A04D481-09C1-42DD-8EB1-3FC8665B88F6}|..\\Task2\\Task2.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570A405A-3CAA-46DE-9F6D-BC678B1A6F27}|Task1\\Task1.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{570A405A-3CAA-46DE-9F6D-BC678B1A6F27}|Task1\\Task1.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{570A405A-3CAA-46DE-9F6D-BC678B1A6F27}|Task1\\Task1.vcxproj|solutionrelative:Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -33,52 +33,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Task4(homework).c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
               "RelativeDocumentMoniker": "..\\Task4(homework)\\Task4(homework).c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
               "RelativeToolTip": "..\\Task4(homework)\\Task4(homework).c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-15T12:40:37.703Z",
+              "WhenOpened": "2024-09-18T12:58:14.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Task3.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
               "RelativeDocumentMoniker": "..\\Task3\\Task3.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
               "RelativeToolTip": "..\\Task3\\Task3.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-15T11:51:28.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T12:58:15.096Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Task2.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
               "RelativeDocumentMoniker": "..\\Task2\\Task2.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
               "RelativeToolTip": "..\\Task2\\Task2.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-14T14:35:09.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T12:58:15.106Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Task1.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
               "RelativeDocumentMoniker": "Task1\\Task1.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
               "RelativeToolTip": "Task1\\Task1.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-14T14:19:05.24Z"
+              "WhenOpened": "2024-09-18T12:58:15.108Z"
             }
           ]
         }
