@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "RUS");
 
     double a, b;
     printf("¬ведите значение a: ");
