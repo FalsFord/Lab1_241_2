@@ -15,8 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Task1.c">
-      <Filter>Файлы заголовков</Filter>
+    <None Include="Task4homework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Task4%28homework%29.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
