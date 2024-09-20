@@ -12,5 +12,5 @@ int main() {
 	puts("Ответ:");
 	a = n;
 	b = L;
-	printf("\n\t%+08.4f", a/b);
+	printf("\n\t%+08.3f", a/b);
 }
