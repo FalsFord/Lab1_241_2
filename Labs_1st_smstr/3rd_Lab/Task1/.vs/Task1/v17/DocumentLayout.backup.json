@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\",
+  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{5E66F828-CC8C-444A-94D1-AB2A6621D3EF}|..\\Task3\\Task3.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -14,6 +15,19 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A04D481-09C1-42DD-8EB1-3FC8665B88F6}|..\\Task2\\Task2.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{570A405A-3CAA-46DE-9F6D-BC678B1A6F27}|Task1\\Task1.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{570A405A-3CAA-46DE-9F6D-BC678B1A6F27}|Task1\\Task1.vcxproj|solutionrelative:Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +37,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 4,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,22 +52,32 @@
               "DocumentIndex": 1,
               "Title": "Task4(homework).c",
               "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
-              "RelativeDocumentMoniker": "..\\Task4(homework)\\Task4(homework).c",
               "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task4(homework)\\Task4(homework).c",
+<<<<<<< Updated upstream
               "RelativeToolTip": "..\\Task4(homework)\\Task4(homework).c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-18T12:58:14.715Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Task3.c",
               "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
-              "RelativeDocumentMoniker": "..\\Task3\\Task3.c",
               "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task3\\Task3.c",
+<<<<<<< Updated upstream
               "RelativeToolTip": "..\\Task3\\Task3.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-18T12:58:15.096Z",
               "EditorCaption": ""
@@ -59,24 +87,27 @@
               "DocumentIndex": 3,
               "Title": "Task2.c",
               "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
-              "RelativeDocumentMoniker": "..\\Task2\\Task2.c",
               "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task2\\Task2.c",
-              "RelativeToolTip": "..\\Task2\\Task2.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-18T12:58:15.106Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "Task1.c",
-              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
+              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
               "RelativeDocumentMoniker": "Task1\\Task1.c",
-              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
+              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\3rd_Lab\\Task1\\Task1\\Task1.c",
               "RelativeToolTip": "Task1\\Task1.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-18T12:58:15.108Z"
+              "WhenOpened": "2024-09-18T12:58:15.108Z",
+              "EditorCaption": ""
             }
           ]
         }
