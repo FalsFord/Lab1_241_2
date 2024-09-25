@@ -1,6 +1,7 @@
-	#include<stdio.h>
+#define _CRT_SECURE_NO_DEPRECATE
+#include<stdio.h>
 	#include<locale.h>
-	#define _CRT_SECURE_NO_DEPRECATE
+	
 
 	int main() {
 		setlocale(LC_ALL, "Rus");
@@ -12,16 +13,16 @@
 		printf("char %c, int %d, float %f, double %e", c, i, f, d);
 	
 		puts("\nchar: ");
-		scanf_s("%c", &c);
+		scanf("%c", &c);
 
 		puts("int: ");
-		scanf_s("%d", &i);
+		scanf("%d", &i);
 
 		puts("float: ");
-		scanf_s("%f", &f);
+		scanf("%f", &f);
 
 		puts("double: ");
-		scanf_s("%le", &d);
+		scanf("%le", &d);
 
 		printf("char %c, int %d, float %f, double %e", c, i, f, d);
 	
@@ -32,10 +33,11 @@
 		char ch;
 		puts("\n1b");
 		puts("\nВведите один символ ");
-		scanf_s("%c", &ch);
+		getchar();
+		scanf("%c", &ch);
 		printf("\nCH=%c", ch);
 
-		printf("%x",ch);
+		printf("\n%x", ch);
 		printf("\n%o",ch);
 
 		printf("\n1v");
