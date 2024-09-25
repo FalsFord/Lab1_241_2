@@ -74,9 +74,15 @@
               "Title": "Task1.c",
               "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\4th_Lab\\Task1\\Task1\\Task1.c",
               "RelativeDocumentMoniker": "Task1\\Task1.c",
+<<<<<<< Updated upstream
               "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\4th_Lab\\Task1\\Task1\\Task1.c",
               "RelativeToolTip": "Task1\\Task1.c",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAACAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\4th_Lab\\Task1\\Task1\\Task1.c",
+              "RelativeToolTip": "Task1\\Task1.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-19T11:39:06.173Z",
               "EditorCaption": ""
