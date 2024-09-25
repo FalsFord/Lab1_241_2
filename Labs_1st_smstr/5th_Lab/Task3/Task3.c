@@ -6,7 +6,7 @@
 #define e 2,71828182845904
 void main() {
 	setlocale(LC_ALL, "Rus");
-	int A,a1,b1, B, C,c1, dif;
+	int A, B, C;
 
 	float y, a, b, x = 4.2e-3;
 	puts("\n¬ведите x ");
@@ -22,5 +22,5 @@ void main() {
 	printf("\na=%f,b=%f, y=%f", a, b, y);
 	printf("\nA=%d,B=%d, C=%d", A, B, C);
 	printf("\na) %d", A%2+B%2==1);
-	printf("\na) %d", A%3==0 && B%3==0 && C%2==0);
+	printf("\nб) %d", A%3==0 && B%3==0 && C%2==0);
 }
