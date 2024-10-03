@@ -22,5 +22,5 @@ void main() {
 	printf("\na=%f,b=%f, y=%f", a, b, y);
 	printf("\nA=%d,B=%d, C=%d", A, B, C);
 	printf("\na) %d", A%2+B%2==1);
-	printf("\ná) %d", A%3==0 && B%3==0 && C%2==0);
+	printf("\ná) %d", A%3==0 && B%3==0 && C%3==0);
 }
