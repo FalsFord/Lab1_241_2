@@ -1,3 +1,3 @@
 ﻿  Hometask.c
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\5th_Lab\Hometask\Hometask.c(7,11): warning C4101: f: неиспользованная локальная переменная
-  Hometask.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\5th_Lab\Task1\x64\Debug\Hometask.exe
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\5th_Lab\Hometask\Hometask.c(7,11): warning C4101: f: неиспользованная локальная переменная
+  Hometask.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\5th_Lab\Task1\x64\Debug\Hometask.exe

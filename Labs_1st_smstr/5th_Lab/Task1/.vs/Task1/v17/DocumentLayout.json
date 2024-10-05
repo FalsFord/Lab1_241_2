@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Task1\\",
+  "WorkspaceRootPath": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Task1\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{AE5F3467-AC04-4479-A7FC-BEFA0DBB9661}|..\\Task2\\Task2.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -14,6 +15,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4C6E81E-251F-474E-A5A6-5A2A18DCC0C9}|..\\Task3\\Task3.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{1C48D8D3-844D-4A0B-B649-3626459BFD67}|..\\Hometask\\Hometask.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Hometask\\Hometask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 2f7d11e8fbdcaeac4c348ce4bf0411c95f6d57d3
     }
   ],
   "DocumentGroupContainers": [
@@ -33,10 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Hometask.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Hometask\\Hometask.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Hometask\\Hometask.c",
               "RelativeDocumentMoniker": "..\\Hometask\\Hometask.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Hometask\\Hometask.c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\5th_Lab\\Hometask\\Hometask.c",
               "RelativeToolTip": "..\\Hometask\\Hometask.c",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-29T12:26:46.44Z",
@@ -79,6 +84,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-25T09:19:55.319Z",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-03T13:20:27.9Z",
+>>>>>>> 2f7d11e8fbdcaeac4c348ce4bf0411c95f6d57d3
               "EditorCaption": ""
             }
           ]
