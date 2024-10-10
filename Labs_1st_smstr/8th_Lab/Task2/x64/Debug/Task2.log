@@ -1,0 +1,6 @@
+﻿  Task2.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\8th_Lab\Task2\Task2.c(17,30): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\8th_Lab\Task2\Task2.c(20,2): warning C4098: main: функция типа "void", возвращающая значение
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\8th_Lab\Task2\Task2.c(8,7): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "char [2]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\8th_Lab\Task2\Task2.c(16,17): warning C4305: инициализация: усечение из "double" в "float"
+  Task2.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\8th_Lab\Task0\x64\Debug\Task2.exe

@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\7th_Lab\Task1\x64\Debug\Task3.exe</FullPath>
+=======
+      <FullPath>C:\Student practicum\Lab1_241_2\Labs_1st_smstr\7th_Lab\Task1\x64\Debug\Task3.exe</FullPath>
+>>>>>>> 4588d0b062961d92b53be187843b61b6386a89cc
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
