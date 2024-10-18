@@ -25,7 +25,11 @@ int main()
 	default: printf("\nИтого %d рублей", rub);
 	}
 	//Окончание для копеек
+<<<<<<< HEAD
+	switch (kop % 10) {
+=======
 	switch (kop % 100) {
+>>>>>>> 4588d0b062961d92b53be187843b61b6386a89cc
 	case 0:
 		printf(" 0 копеек ");
 		break;
@@ -37,9 +41,12 @@ int main()
 	case 4:
 		printf(" %d копейки", kop);
 		break;
+<<<<<<< HEAD
+=======
 	case 11:
 		printf(" %d копеек ", kop);
 		break;
+>>>>>>> 4588d0b062961d92b53be187843b61b6386a89cc
 	default: printf(" %d копеек", kop);
 	}
 
