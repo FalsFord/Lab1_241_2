@@ -16,6 +16,15 @@ double sin_n(double x, int n) {
     }
     return sinx;
 }
+double sin_eps(double x, double eps) {
+    double sinx = 0;
+    for (int i = 0; i >=0; i++) {
+        int sign = (i % 2 == 0) ? 1 : -1;
+        sinx += sign * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
+        if (fabs(sinx) > eps)break;
+    }
+    return sinx;
+}
 
 int main() {
     double x;
