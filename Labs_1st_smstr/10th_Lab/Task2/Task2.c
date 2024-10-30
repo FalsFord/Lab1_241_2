@@ -21,12 +21,14 @@ double sin_eps(double x, double eps) {
     double ans = 0;
     int i = 0;
     double term=0;
-    do {
-        term = (i % 2 == 0 ? 1 : -1) * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
-        ans += term;
-        i++;
-    } while (fabs(term) > eps);
-    return ans;
+    printf("\n|  N  |    sin_N    |  отклонение |");
+        do {
+            printf("\n|  %d  |  %+.6f  | %+.5e|", i, term, sin(x) - ans);
+            term = (i % 2 == 0 ? 1 : -1) * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
+            ans += term;
+            i++;
+        } while (fabs(term) > eps);
+        return ans;
 }
 //double sin_eps(double x, double eps) {
 //    double sinx = 0;
@@ -66,7 +68,7 @@ double func_arccos(double x, int n) {
 }
 
 int main() {
-    double x, eps;
+    double x, eps, sum_eps;
     int n;
     setlocale(LC_ALL, "Rus");
 
@@ -81,14 +83,14 @@ int main() {
     scanf_s("%lf", &eps);
 
     if (x > 3.14)x =-1*(x - 3.14);
-    // Преобразование из градусов в радианы
-    /*x = x * M_PI / 180;*/
+
 
     printf("Синус с использованием библиотеки: %f\n", sin(x));
     printf("Синус с использованием разложения в ряд Тейлора: %lf\n", sin_n(x, n));
-    printf("Синус c точностью eps, ряд Маклорена: %lf\n", sin_eps(x, eps));
 
-    printf("Аркосинус с использованием разложения в ряд: %lf\n", func_arccos(x, n));
+    sin_eps(x, eps);
+
+    printf("\nАркосинус с использованием разложения в ряд: %lf\n", func_arccos(x, n));
     return 0;
 }
 
