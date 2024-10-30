@@ -11,20 +11,47 @@ int funcfact(int f) {
 double sin_n(double x, int n) {
     double sinx = 0;
     for (int i = 0; i < n; i++) {
-        int sign = (i % 2 == 0) ? 1 : -1;
-        sinx += sign * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
+       (i % 2 == 0) ? 1 : -1;
+        sinx += (i % 2 == 0 ? 1 : -1) * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
     }
     return sinx;
 }
 
 double sin_eps(double x, double eps) {
-    double sinx = 0;
-     for (int i = 0; fabs(sinx)<eps; i++) {
-        int sign = (i % 2 == 0) ? 1 : -1;
-        sinx += sign * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
-    }
-    return sinx;
+    double ans = 0;
+    int i = 0;
+    double term=0;
+    do {
+        term = (i % 2 == 0 ? 1 : -1) * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
+        ans += term;
+        i++;
+    } while (fabs(term) > eps);
+    return ans;
 }
+//double sin_eps(double x, double eps) {
+//    double sinx = 0;
+//    double sum = 0;
+//     for (int i = 0;fabs(sinx)>eps; i++) {
+//        sinx = (i % 2 == 0 ? 1 : -1) * pow(x, 2 * i + 1) / funcfact(2 * i + 1);
+//        sum += sinx;
+//    }
+//    return sum;
+//}
+//double sin_eps(double x, double eps) {
+//
+//    double term = x; // первый член ряда (x^1 / 1!)
+//    double sum = term; // сумма ряда
+//    int n = 1; // счетчик для факториала в знаменателе и степени x
+//
+//    // Цикл для вычисления членов ряда до достижения заданной точности
+//    while (fabs(term) > eps) {
+//        n += 2;
+//        term *= -x * x / (n * (n - 1)); // вычисление следующего члена ряда
+//        sum += term;
+//    }
+//
+//    return sum;
+//}
 
 double func_arccos(double x, int n) {
     double arccos = (M_PI / 2) - x, mpl1=1, mpl2=1;
