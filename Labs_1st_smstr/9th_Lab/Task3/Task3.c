@@ -7,7 +7,7 @@ void main() {
 
     while (1) {
         char a, symbol;
-        int h, b, line, var = 0;
+        int h, b, line, var = 1,step=10;
         float angle;
 
         puts("\n¬ведите символ контура ");
@@ -22,8 +22,12 @@ void main() {
         puts("\n¬ведите высоту h ");
         scanf_s("%d", &h);
 
-        puts("\n¬ведите значение угла angle ");
+        puts("\n¬ведите значение угла angle(кратное 5)");
         scanf_s("%f", &angle);
+
+        for (int g = angle; g >0; g -= 5) {
+            step -= 1;
+       }
 
         /*line = h / tan(angle);*/
 
@@ -35,10 +39,10 @@ void main() {
                 }
                 else if (j == 1) printf("%c", symbol); else printf("%c", symbol);
             }
-            /*var += h / line;*/
-            for (int count = 1; count <= i; count++) {
+            for (int count = 1; count <= var; count++) {
                 printf("%c", symbol);
             }
+            var += step;
 
             printf("\n");
         }

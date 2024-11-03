@@ -4,8 +4,11 @@
 
 void draw_trapeze(char symbol, int h, int b, float angle)
 {
-    int line, var = 0;
-    /*line = h / tan(angle);*/
+    int line, var = 1,step=10;
+
+    for (int g = angle; g > 0; g -= 5) {
+        step -= 1;
+    }
 
     for (int i = 1; i <= h; i++) {
 
@@ -15,10 +18,10 @@ void draw_trapeze(char symbol, int h, int b, float angle)
             }
             else if (j == 1) printf("%c", symbol); else printf("%c", symbol);
         }
-        /*var += h / line;*/
-        for (int count = 1; count <= i; count++) {
+        for (int count = 1; count <= var; count++) {
             printf("%c", symbol);
         }
+        var += step;
 
         printf("\n");
     }
@@ -67,7 +70,7 @@ int main() {
             puts("\n¬ведите высоту h ");
             scanf_s("%d", &h);
 
-            puts("\n¬ведите значение угла angle ");
+            puts("\n¬ведите значение угла angle(кратное 5) ");
             scanf_s("%f", &angle);
 
             draw_trapeze(symbol, h, b, angle);
