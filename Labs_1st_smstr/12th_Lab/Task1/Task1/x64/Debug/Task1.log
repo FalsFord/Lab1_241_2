@@ -1,0 +1,18 @@
+﻿  Task1.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(9,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(9,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(10,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(10,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(11,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(11,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(12,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\Task1\Task1.c(12,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+  Task1.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\12th_Lab\Task1\x64\Debug\Task1.exe

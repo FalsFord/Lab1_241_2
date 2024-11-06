@@ -1,7 +1,7 @@
 ﻿  Task2.c
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(8,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(9,6): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(10,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(17,68): warning C4305: инициализация: усечение из "double" в "float"
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(17,91): warning C4305: инициализация: усечение из "double" в "float"
-  Task2.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task1\x64\Debug\Task2.exe
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(8,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(9,6): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(10,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(17,68): warning C4305: инициализация: усечение из "double" в "float"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task2\Task2.c(17,91): warning C4305: инициализация: усечение из "double" в "float"
+  Task2.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\11th_Lab\Task1\x64\Debug\Task2.exe
