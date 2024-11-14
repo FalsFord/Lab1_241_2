@@ -6,7 +6,8 @@ int main() {
     char c;
     short int si;
     unsigned short int usi;
-    int i;
+    int i,*ptr=&i;
+
     unsigned char uc;
     wchar_t wc;
     long long int lli;
