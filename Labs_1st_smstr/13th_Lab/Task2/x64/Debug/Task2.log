@@ -1,0 +1,6 @@
+﻿  Task2.c
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\13th_Lab\Task2\Task2.c(21,16): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\13th_Lab\Task2\Task2.c(54,2): warning C4098: main: функция типа "void", возвращающая значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\13th_Lab\Task2\Task2.c(21,8): warning C4047: инициализация: "char *" отличается по уровням косвенного обращения от "int"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\13th_Lab\Task2\Task2.c(31,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Task2.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\13th_Lab\Task1\x64\Debug\Task2.exe
