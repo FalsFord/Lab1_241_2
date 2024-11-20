@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\",
+  "WorkspaceRootPath": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26CB599B-6990-4493-9BB1-CB9D64F05D87}|Task0\\Task0.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{26CB599B-6990-4493-9BB1-CB9D64F05D87}|Task0\\Task0.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{26CB599B-6990-4493-9BB1-CB9D64F05D87}|Task0\\Task0.vcxproj|solutionrelative:Task0\\Task0.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Task0.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c",
               "RelativeDocumentMoniker": "Task0\\Task0.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\8th_Lab\\Task0\\Task0\\Task0.c",
               "RelativeToolTip": "Task0\\Task0.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",

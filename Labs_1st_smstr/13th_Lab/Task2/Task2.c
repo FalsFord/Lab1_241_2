@@ -35,8 +35,8 @@ void main() {
 	for (int i = 0; i < strlen(Name) / 2; i++) FirPol[i] = tolower(Name[i]);
 	FirPol[strlen(Name) / 2] = '\0';
 
-	for (int i = 0, n = strlen(Name)/2; i < strlen(Name)/2; i++,n++) SecPol[i] = toupper(Name[n]);
-	SecPol[strlen(Name) / 2] = '\0';
+	for (int i = 0, n = strlen(Name)/2; i <= strlen(Name)/2; i++,n++) SecPol[i] = toupper(Name[n]);
+	SecPol[strlen(Name) / 2+1] = '\0';
 
 	strcat(DubSnew, FirPol);
 	strcat(DubSnew, SecPol);
