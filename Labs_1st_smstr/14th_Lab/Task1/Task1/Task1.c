@@ -11,7 +11,7 @@ double* full_elements(double* array, int size) {
 			y = x - 3 * powf(cosf(1.04 * i), 2);
 			x += step;
 			array[i] = y;
-		}
+			}
 		array[size] = '\0';
 }
 

@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Tasl1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Task1.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Tasl1\Tasl1\Task1.c(14,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Tasl1\Tasl1\Task1.c(16,1): warning C4716: dist: должна возвращать значение
+  Tasl1.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Tasl1\x64\Debug\Task1.exe
