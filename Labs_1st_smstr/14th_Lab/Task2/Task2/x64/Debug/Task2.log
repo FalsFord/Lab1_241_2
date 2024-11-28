@@ -1,8 +1,8 @@
 ﻿  Task2.c
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(11,30): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(8,28): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(9,12): warning C4305: инициализация: усечение из "double" в "float"
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(16,1): warning C4716: full_elements: должна возвращать значение
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(18,1): warning C4716: put_elements: должна возвращать значение
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(19,1): warning C4716: calc_elements: должна возвращать значение
-  Task2.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task1\x64\Debug\Task2.exe
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(11,30): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(8,28): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(9,12): warning C4305: инициализация: усечение из "double" в "float"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(19,1): warning C4716: calc_elements: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(16,1): warning C4716: full_elements: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task2\Task2\Task2.c(18,1): warning C4716: put_elements: должна возвращать значение
+  Task2.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\14th_Lab\Task1\x64\Debug\Task2.exe
