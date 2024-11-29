@@ -1,2 +1,4 @@
 ﻿  Task2.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Task2\Task2.c(70,118): warning C4013: abs: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Task2\Task2.c(14,10): warning C4101: array: неиспользованная локальная переменная
   Task2.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\18th_Lab\Tasl1\x64\Debug\Task2.exe
