@@ -56,8 +56,8 @@ void main() {
 	struct Train train[quantity];
 
 	for (int i = 0; i < quantity; i++) {
-		printf("Заполните информацию о поезде %d.\n", i+1);
-		recordRide(&train[i]);
+			printf("Заполните информацию о поезде %d.\n", i+1);
+			recordRide(&train[i]);
 		float speed = train[i].averageSpeed;
 		printf("Средняя скорость поезда %d равно %f м/с.\n", i + 1, speed);
 	}
