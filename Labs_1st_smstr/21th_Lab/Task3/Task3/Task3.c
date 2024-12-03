@@ -60,7 +60,7 @@ int search_rideNumber(train_t* trains, int size, char* direction) {
 		if (strcmp(trains[i].direction, direction) == 0)return trains[i].rideNumber;
 	}
 }
-int compare(train_t* a, train_t* b) {
+int compare(train_t* a, train_t* b) {	
 	int comA = definitionTime(a->departureTime) - definitionTime(a->arrivalTime);
 	int comB = definitionTime(b->departureTime) - definitionTime(b->arrivalTime);
 
