@@ -104,7 +104,6 @@ char* WriteFile(notebook_t* notebooks, int size) {
     if (fp == NULL) {
         return "Ошибка открытия файла для записи";
     }
-
     for (int i = 0; i < size; i++) {
         if (fprintf(fp, "Производитель ноутбука: %s\n", notebooks[i].fabricator) < 0 ||
             fprintf(fp, "Операционная система: %s\n", notebooks[i].OS) < 0 ||
@@ -115,7 +114,6 @@ char* WriteFile(notebook_t* notebooks, int size) {
             return "Ошибка записи данных в файл";
         }
     }
-
     fclose(fp);
     return NULL;
 }
@@ -125,8 +123,6 @@ char* ReadFile(notebook_t* notebooks, int size) {
     if (fp == NULL) {
         return "Не удалось открыть файл";
     }
-
-
     for (int i = 0; i < size; i++) {
         if (fscanf(fp, "Производитель ноутбука: %9s\n", notebooks[i].fabricator) != 1 ||
             fscanf(fp, "Операционная система: %9s\n", notebooks[i].OS) != 1 ||
@@ -137,7 +133,6 @@ char* ReadFile(notebook_t* notebooks, int size) {
             return "Ошибка при чтении данных из файла";
         }
     }
-
     fclose(fp);
     return NULL;
 }
@@ -206,7 +201,6 @@ void main() {
     while (a) {
         ReadFile(notebooks, SIZE);
 
-
         printf("**********************************************\n");
         printf("*                     Menu                   *\n");
         printf("**********************************************\n");
@@ -216,6 +210,7 @@ void main() {
         printf("* 4. Сортировать данные файла.               *\n");
         printf("* 5. Завершить работу                        *\n");
         printf("**********************************************\n");
+        getchar();
         scanf("%d", &num);
         switch (num) {
         case 1:
@@ -231,14 +226,6 @@ void main() {
             break;
         case 2:
             num = 0;
-            error = WriteFile(notebooks, SIZE);
-            if (error) {
-                printf("Ошибка: %s\n", error);
-            }
-            else {
-                printf("Запись удалена и файл обновлён\n");
-            }
-            break;
             int searchRAM;
             printf("**********************************************\n");
             printf("*                    Поиск по                *\n");
@@ -290,11 +277,13 @@ void main() {
             printf("* 5. Вернуться в меню.                       *\n");
             printf("**********************************************\n");
             scanf("%d", &num);
-            switch (num) {
+            switch (num)
+            {
             case 1:
                 SIZE += 1;
                 temp = realloc(notebooks, SIZE * sizeof(notebook_t));
-                if (temp == NULL) {
+                if (temp == NULL) 
+                {
                     printf("Ошибка выделения памяти\n");
                     continue;
 
@@ -302,10 +291,12 @@ void main() {
                 notebooks = temp;
                 AddChangeNotes(notebooks, SIZE - 1);
                 error = WriteFile(notebooks, SIZE);
-                if (error) {
+                if (error)
+                {
                     printf("Ошибка: %s\n", error);
                 }
-                else {
+                else 
+                {
                     printf("Запись добавлена и файл обновлён\n");
                 }
                 break;
@@ -315,10 +306,12 @@ void main() {
                 scanf("%d", &num);
                 AddChangeNotes(notebooks, num - 1);
                 error = WriteFile(notebooks, SIZE);
-                if (error) {
+                if (error)
+                {
                     printf("Ошибка: %s\n", error);
                 }
-                else {
+                else
+                {
                     printf("Запись обновлена и файл обновлён\n");
                 }
                 break;
@@ -338,10 +331,12 @@ void main() {
                 break;
             case 4:
                 error = ReadFile(notebooks, SIZE);
-                if (error) {
+                if (error)
+                {
                     printf("Ошибка: %s\n", error);
                 }
-                else {
+                else 
+                {
                     printf("Файл успешно прочитан\n");
                     printf("\n");
 

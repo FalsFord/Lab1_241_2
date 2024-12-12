@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\",
+  "WorkspaceRootPath": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFF7FD02-F409-4BBE-BE85-A58B373D42A0}|Courseworks\\Courseworks.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DFF7FD02-F409-4BBE-BE85-A58B373D42A0}|Courseworks\\Courseworks.vcxproj|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DFF7FD02-F409-4BBE-BE85-A58B373D42A0}|Courseworks\\Courseworks.vcxproj|solutionrelative:Courseworks\\coursework.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "coursework.c",
-              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c",
+              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c",
               "RelativeDocumentMoniker": "Courseworks\\coursework.c",
-              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c*",
-              "RelativeToolTip": "Courseworks\\coursework.c*",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAAAG8BAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\Coursework\\Courseworks\\Courseworks\\coursework.c",
+              "RelativeToolTip": "Courseworks\\coursework.c",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAAKkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-04T10:59:20.075Z",
               "EditorCaption": ""
