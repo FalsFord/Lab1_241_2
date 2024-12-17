@@ -125,8 +125,6 @@ char* ReadFile(notebook_t* notebooks, int size) {
     if (fp == NULL) {
         return "Не удалось открыть файл";
     }
-
-
     for (int i = 0; i < size; i++) {
         if (fscanf(fp, "Производитель ноутбука: %9s\n", notebooks[i].fabricator) != 1 ||
             fscanf(fp, "Операционная система: %9s\n", notebooks[i].OS) != 1 ||
@@ -231,14 +229,6 @@ void main() {
             break;
         case 2:
             num = 0;
-            error = WriteFile(notebooks, SIZE);
-            if (error) {
-                printf("Ошибка: %s\n", error);
-            }
-            else {
-                printf("Запись удалена и файл обновлён\n");
-            }
-            break;
             int searchRAM;
             printf("**********************************************\n");
             printf("*                    Поиск по                *\n");
@@ -292,15 +282,33 @@ void main() {
             scanf("%d", &num);
             switch (num) {
             case 1:
-                SIZE += 1;
-                temp = realloc(notebooks, SIZE * sizeof(notebook_t));
-                if (temp == NULL) {
-                    printf("Ошибка выделения памяти\n");
-                    continue;
-
+                error = ReadFile(notebooks, SIZE);
+                if (error) {
+                    printf("Ошибка: %s\n", error);
+                    break;
                 }
-                notebooks = temp;
-                AddChangeNotes(notebooks, SIZE - 1);
+                printf("Введите сколько записей вы хотите добавить: ");
+                num = 0;
+                scanf("%d", &num);
+             
+                SIZE += num;
+                temp = realloc(notebooks, SIZE * sizeof(notebook_t));
+                 if (temp == NULL) 
+                 {
+                 printf("Ошибка выделения памяти\n");
+                     continue;
+                  }
+                 for (int i = 0; i < SIZE - num; i++) {
+                     temp[i] = notebooks[i];
+                 }
+                 for (int i = SIZE - num; i < SIZE; i++)
+                 {
+                     AddChangeNotes(temp, i);
+                 }
+                 notebooks = malloc(SIZE * sizeof(notebook_t));
+                 for (int i = 0; i < SIZE; i++) {
+                     notebooks[i] = temp[i];
+                 }
                 error = WriteFile(notebooks, SIZE);
                 if (error) {
                     printf("Ошибка: %s\n", error);

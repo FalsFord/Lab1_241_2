@@ -1,4 +1,4 @@
 ﻿  coursework.c
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(175,9): warning C4033: "DeleteNotes" должен возвращать значение
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(190,1): warning C4715: DeleteNotes: значение возвращается не при всех путях выполнения
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(174,9): warning C4033: "DeleteNotes" должен возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(189,1): warning C4715: DeleteNotes: значение возвращается не при всех путях выполнения
   Courseworks.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\x64\Debug\Courseworks.exe
