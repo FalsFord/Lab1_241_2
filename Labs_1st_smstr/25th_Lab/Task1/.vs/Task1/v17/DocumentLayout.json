@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E72AE88-9ECC-487A-8D4A-0318BAEA3404}|Task1\\Task1.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task1\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E72AE88-9ECC-487A-8D4A-0318BAEA3404}|Task1\\Task1.vcxproj|solutionrelative:Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822BA26D-C2CD-4F30-A47D-F9692E54D68C}|..\\Task3\\Task3.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258E68F7-CB30-4691-B867-A582C482A9D8}|..\\Task2\\Task2.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task3.c",
+              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task3\\Task3.c",
+              "RelativeDocumentMoniker": "..\\Task3\\Task3.c",
+              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task3\\Task3.c",
+              "RelativeToolTip": "..\\Task3\\Task3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T16:12:11.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task2.c",
+              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task2\\Task2.c",
+              "RelativeDocumentMoniker": "..\\Task2\\Task2.c",
+              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task2\\Task2.c",
+              "RelativeToolTip": "..\\Task2\\Task2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T16:11:42.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task1.c",
+              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task1\\Task1\\Task1.c",
+              "RelativeDocumentMoniker": "Task1\\Task1.c",
+              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\25th_Lab\\Task1\\Task1\\Task1.c",
+              "RelativeToolTip": "Task1\\Task1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T16:10:52.378Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

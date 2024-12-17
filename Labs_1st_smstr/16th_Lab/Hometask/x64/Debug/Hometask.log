@@ -1,0 +1,4 @@
+﻿  Hometask.c
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Hometask\Hometask.c(63,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Hometask\Hometask.c(67,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Hometask.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\x64\Debug\Hometask.exe

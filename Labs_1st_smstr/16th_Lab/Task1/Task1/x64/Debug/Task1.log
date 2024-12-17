@@ -1,0 +1,5 @@
+﻿  Task1.c
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(27,1): warning C4716: printe: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(21,1): warning C4716: calce: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(14,1): warning C4716: fille: должна возвращать значение
+  Task1.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\x64\Debug\Task1.exe
