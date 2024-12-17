@@ -1,5 +1,8 @@
 ﻿  Task1.c
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(27,1): warning C4716: printe: должна возвращать значение
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(21,1): warning C4716: calce: должна возвращать значение
-D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(14,1): warning C4716: fille: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(12,30): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(9,28): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(10,12): warning C4305: инициализация: усечение из "double" в "float"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(16,1): warning C4716: full_elements: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(18,1): warning C4716: calc_elements: должна возвращать значение
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\Task1\Task1.c(25,1): warning C4716: printe: должна возвращать значение
   Task1.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\16th_Lab\Task1\x64\Debug\Task1.exe

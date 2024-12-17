@@ -2,23 +2,21 @@
 #include <locale.h>
 #include <stdlib.h>
 #include <math.h>
+#define const 10
 
 
-
-double* fille(double* ptr_array, int n) {
-	double z = 1;
-	for (int i = 0; i < n; i++) {
-		ptr_array[i] = (pow(z, 3) - 4 * pow(z, 2) + 2);
-		z += 0.02;
+double* full_elements(double* array, int size) {
+	float step = (2.1 - 0.15) / size;
+	float x = 0.15, y;
+	for (int i = 0; i < size; i++) {
+		y = x - 3 * powf(cosf(1.04 * i), 2);
+		x += step;
+		array[i] = y;
 	}
 }
 
-double* calce(double* ptr_array, int n) {
+double* calc_elements(double* array, int size) { for (int i = 0; i < size; i++) array[i] -= const; }
 
-	for (int i = 0; i < n; i++) {
-		ptr_array[i] = -1 * (ptr_array[i]);
-	}
-}
 
 int printe(double* ptr_array, int n) {
 	for (int i = 0; i < n; i++) {
@@ -43,8 +41,8 @@ int main() {
 		return -1;
 	}
 
-	fille(ptr_array, size);
-	calce(ptr_array, size);
+	full_elements(ptr_array, size);
+	calc_elements(ptr_array, size);
 	printe(ptr_array, size);
 
 	free(ptr_array);
