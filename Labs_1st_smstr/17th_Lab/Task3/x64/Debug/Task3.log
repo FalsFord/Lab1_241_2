@@ -1,0 +1,3 @@
+﻿  Task3.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task3\Task3.c(133,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Task3.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\x64\Debug\Task3.exe

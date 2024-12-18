@@ -2,9 +2,8 @@
 #include<locale.h>
 #include<stdlib.h>
 #include<time.h>
-//10000 элементов
 
-int* fille(int* ptr_array, int size) {
+void fille(int* ptr_array, int size) {
 	for (int i = 0; i < size; i++)
 		ptr_array[i] = rand() % 50;
 }
@@ -34,7 +33,7 @@ void bubbleSort(int* ptr_array, int count) {
 
 void shaker_sort(int* ptr_array, int size)
 {
-	int left = 2;
+	int left = 0;
 	int right = size - 1;
 	int temp;
 	while (right > left)
@@ -68,7 +67,7 @@ void select_sort(int* ptr_array, int size)
 	for (int i = 0; i < size - 1; i++)
 	{
 		int min = i;
-		for (int j = i + 1; j < 10; j++)
+		for (int j = i + 1; j < size; j++)
 		{
 			if (ptr_array[j] < ptr_array[min])
 			{
@@ -94,18 +93,17 @@ void insert_sort(int* ptr_array, int size)
 	}
 }
 
-
 void main() {
 	setlocale(LC_ALL, "ru");
 	srand(time(NULL));
 
 	int size;
-	double* ptr_array;
+	int* ptr_array;
 
 	printf("Введите размер массива: ");
-	scanf_s("%d", &size);
+	scanf("%d", &size);
 
-	ptr_array = (double*)malloc(size * sizeof(double));
+	ptr_array = (int*)malloc(size * sizeof(int));
 
 	fille(ptr_array, size);
 
@@ -122,5 +120,5 @@ void main() {
 
 	printf("Время работы: %.8f ms\n", (double)(end - start) * 1000 / CLOCKS_PER_SEC);
 
-
+	free(ptr_array);
 }

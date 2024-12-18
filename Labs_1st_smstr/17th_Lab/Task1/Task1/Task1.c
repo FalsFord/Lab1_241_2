@@ -16,52 +16,44 @@ void printe(int* ptr_array, int size) {
 }
 
 void bubbleSort(int* ptr_array, int count) {
-	for (int i = 0; i < count - 1; i++) {
-		for (int j = 0; j < count - i - 1; j++) {
-			int swapNeeded = 0;
-
-			if (ptr_array[j] > ptr_array[j + 1]) {
-				swapNeeded = 1;
-			}
-
-			if (swapNeeded) {
-				int temp = ptr_array[j];
-				ptr_array[j] = ptr_array[j + 1];
-				ptr_array[j + 1] = temp;
+	for (int i = 0; i < count; i++) {
+		for (int j = 0; j < count; j++) {
+			int swap = 0;
+			if (ptr_array[i] <= ptr_array[j]) {
+				swap = ptr_array[i];
+				ptr_array[i] = ptr_array[j];
+				ptr_array[j] = swap;
 			}
 		}
 	}
 }
 
+
 void shaker_sort(int* ptr_array, int size)
 {
 	int left = 2;
-	int right = size - 1;
+	int right = size;
 	int temp;
-	while (right > left)
-	{
-		for (int i = left; i < right; i++)
-		{
-			if (ptr_array[i] > ptr_array[i + 1])
-			{
+	while (left <= right) {
+		for (int i = left; i < right;i++) {
+			if (ptr_array[i] < ptr_array[i - 1]) {
 				temp = ptr_array[i];
-				ptr_array[i] = ptr_array[i + 1];
-				ptr_array[i + 1] = temp;
+				ptr_array[i] = ptr_array[i - 1];
+				ptr_array[i - 1] = temp;
 			}
 		}
 		right--;
-		for (int i = right; i > left; i--)
-		{
-			if (ptr_array[i - 1] > ptr_array[i])
-			{
-				temp = ptr_array[i - 1];
-				ptr_array[i - 1] = ptr_array[i];
-				ptr_array[i] = temp;
+		for (int j = right; j > left; j--) {
+			if (ptr_array[j] < ptr_array[j - 1]) {
+				temp = ptr_array[j];
+				ptr_array[j] = ptr_array[j - 1];
+				ptr_array[j - 1] = temp;
 			}
 		}
 		left++;
 	}
 }
+
 
 void select_sort(int* ptr_array, int size)
 {

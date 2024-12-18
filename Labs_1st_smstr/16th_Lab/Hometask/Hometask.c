@@ -24,39 +24,41 @@ void printe(double* array, int size) {
 double* darr(double* a, int n, double* c, int l, int* d_size) {
     double max_c = c[0];
     int max_index = 0;
-    for (int i = 1; i < l; i++) {
-        if (c[i] > max_c) {
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        if (a[i] > 0)count++;
+    }
+    int g = 0;
+    double* counts = malloc(count * sizeof(double));
+    for (int i = 0; i < n; i++) {
+        if (a[i] > 0) {
+            counts[g] = a[i];
+            g++;
+        }
+    }
+
+    for (int i = 0; i < l; i++) {
+        if (c[i] >= max_c) {
             max_c = c[i];
             max_index = i;
         }
-    }
 
-    int positive_count = 0;
-    for (int i = 0; i < n; i++) {
-        if (a[i] > 0) {
-            positive_count++;
+    }
+    printf("max_c=%f\n", max_c);
+    g = 0;
+    int size = l + count; 
+    *d_size = size;
+    double* temp = malloc(size * sizeof(double));
+    for (int i = 0; i < size; i++) {
+        if (i < max_index) temp[i] = c[i];
+        else if (i >= max_index + count)temp[i] = c[i - count];
+        else {
+            temp[i] = counts[g];
+            g++;
         }
     }
+    return temp;
 
-    *d_size = l + positive_count;
-    double* d = (double*)malloc(*d_size * sizeof(double));
-
-    for (int i = 0; i <= max_index; i++) {
-        d[i] = c[i];
-    }
-
-    int d_index = max_index + 1;
-    for (int i = 0; i < n; i++) {
-        if (a[i] > 0) {
-            d[d_index++] = a[i];
-        }
-    }
-
-    for (int i = max_index + 1; i < l; i++) {
-        d[d_index++] = c[i];
-    }
-
-    return d;
 }
 
 int main() {
@@ -66,9 +68,9 @@ int main() {
 
     srand(time(NULL));
 
-    int n = 10 + rand() % 45;
-    int m = 10 + rand() % 45;
-    int l = 10 + rand() % 45;
+    int n = 10;
+    int m = 10;
+    int l = 10;
 
     double* a = (double*)malloc(n * sizeof(double));
     double* b = (double*)malloc(m * sizeof(double));

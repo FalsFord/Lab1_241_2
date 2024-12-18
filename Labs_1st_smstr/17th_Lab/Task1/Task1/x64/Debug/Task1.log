@@ -1,0 +1,24 @@
+﻿  Task1.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(91,8): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(95,8): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(95,8): warning C4024: fille: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(96,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(96,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(98,13): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(98,13): warning C4024: bubbleSort: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(101,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(101,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(103,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(103,14): warning C4024: shaker_sort: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(106,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(106,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(108,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(108,14): warning C4024: select_sort: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(111,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(111,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(113,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(113,14): warning C4024: insert_sort: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(116,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(116,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\Task1\Task1.c(11,1): warning C4716: fille: должна возвращать значение
+  Task1.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\17th_Lab\Task1\x64\Debug\Task1.exe
