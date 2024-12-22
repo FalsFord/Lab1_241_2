@@ -1,6 +1,6 @@
 ﻿  Task2.c
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(91,39): warning C4090: "функция": разные квалификаторы "const"
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(91,39): warning C4113: "int (__cdecl *)(train_t *,train_t *)" отличается в списках параметров от "_CoreCrtNonSecureSearchSortCompareFunction"
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(76,10): warning C4101: trains2: неиспользованная локальная переменная
-C:\Student practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(62,1): warning C4715: search_rideNumber: значение возвращается не при всех путях выполнения
-  Task2.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task1\x64\Debug\Task2.exe
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(91,39): warning C4090: "функция": разные квалификаторы "const"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(91,39): warning C4113: "int (__cdecl *)(train_t *,train_t *)" отличается в списках параметров от "_CoreCrtNonSecureSearchSortCompareFunction"
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(76,10): warning C4101: trains2: неиспользованная локальная переменная
+D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task2\Task2.c(62,1): warning C4715: search_rideNumber: значение возвращается не при всех путях выполнения
+  Task2.vcxproj -> D:\Student Practicum\Lab1_241_2\Labs_1st_smstr\21th_Lab\Task1\x64\Debug\Task2.exe

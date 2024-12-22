@@ -20,8 +20,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -30,14 +34,10 @@
               "RelativeDocumentMoniker": "..\\Task3\\Task3\\Task3.c",
               "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c",
               "RelativeToolTip": "..\\Task3\\Task3\\Task3.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-03T19:08:23.333Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Task1\\Task1.c",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-03T09:04:15.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T09:04:15.344Z"
             }
           ]
         }

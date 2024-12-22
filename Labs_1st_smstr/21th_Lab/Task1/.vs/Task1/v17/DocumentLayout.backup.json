@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EF95DD07-9BE4-4CC0-809F-9AAA4ED84D26}|..\\Task3\\Task3\\Task3.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29138D13-4C97-4946-A7A1-4A1E0AA9B5C3}|Task1\\Task1.vcxproj|D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task1\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,10 +30,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Task3.c",
-              "DocumentMoniker": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c",
-              "ToolTip": "C:\\Student practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c",
+              "DocumentMoniker": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c",
+              "RelativeDocumentMoniker": "..\\Task3\\Task3\\Task3.c",
+              "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task3\\Task3\\Task3.c*",
+              "RelativeToolTip": "..\\Task3\\Task3\\Task3.c*",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-03T15:32:06.748Z"
+              "WhenOpened": "2024-12-03T19:08:23.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,7 +57,7 @@
               "RelativeDocumentMoniker": "Task1\\Task1.c",
               "ToolTip": "D:\\Student Practicum\\Lab1_241_2\\Labs_1st_smstr\\21th_Lab\\Task1\\Task1\\Task1.c",
               "RelativeToolTip": "Task1\\Task1.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-03T09:04:15.344Z"
             }
