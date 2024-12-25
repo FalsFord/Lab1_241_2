@@ -82,6 +82,16 @@ int compare_OS(const void* a, const void* b) {
     return strcmp(notebook1->OS, notebook2->OS);
 }
 
+int compare_fabricator_and_OS(const void* a, const void* b) {
+    const notebook_t* notebook1 = (const notebook_t*)a;
+    const notebook_t* notebook2 = (const notebook_t*)b;
+    int fabricator_cmp = strcmp(notebook1->fabricator, notebook2->fabricator);
+    if (fabricator_cmp == 0) {
+        return strcmp(notebook1->OS, notebook2->OS);
+    }
+    return fabricator_cmp;
+}
+
 notebook_t* sort_notebooks(notebook_t* notebooks, int size, int criteria) {
     if (criteria == 1) {
         qsort(notebooks, size, sizeof(notebook_t), compare_fabricator);
@@ -90,8 +100,7 @@ notebook_t* sort_notebooks(notebook_t* notebooks, int size, int criteria) {
         qsort(notebooks, size, sizeof(notebook_t), compare_OS);
     }
     else if (criteria == 3) {
-        qsort(notebooks, size, sizeof(notebook_t), compare_fabricator);
-        qsort(notebooks, size, sizeof(notebook_t), compare_OS);
+        qsort(notebooks, size, sizeof(notebook_t), compare_fabricator_and_OS);
     }
     else {
         printf("Ошибка: Неверный критерий сортировки\n");
@@ -204,7 +213,6 @@ void main() {
     while (a) {
         ReadFile(notebooks, SIZE);
 
-
         printf("**********************************************\n");
         printf("*                     Menu                   *\n");
         printf("**********************************************\n");
@@ -290,25 +298,25 @@ void main() {
                 printf("Введите сколько записей вы хотите добавить: ");
                 num = 0;
                 scanf("%d", &num);
-             
+
                 SIZE += num;
                 temp = realloc(notebooks, SIZE * sizeof(notebook_t));
-                 if (temp == NULL) 
-                 {
-                 printf("Ошибка выделения памяти\n");
-                     continue;
-                  }
-                 for (int i = 0; i < SIZE - num; i++) {
-                     temp[i] = notebooks[i];
-                 }
-                 for (int i = SIZE - num; i < SIZE; i++)
-                 {
-                     AddChangeNotes(temp, i);
-                 }
-                 notebooks = malloc(SIZE * sizeof(notebook_t));
-                 for (int i = 0; i < SIZE; i++) {
-                     notebooks[i] = temp[i];
-                 }
+                if (temp == NULL)
+                {
+                    printf("Ошибка выделения памяти\n");
+                    continue;
+                }
+                for (int i = 0; i < SIZE - num; i++) {
+                    temp[i] = notebooks[i];
+                }
+                for (int i = SIZE - num; i < SIZE; i++)
+                {
+                    AddChangeNotes(temp, i);
+                }
+                notebooks = malloc(SIZE * sizeof(notebook_t));
+                for (int i = 0; i < SIZE; i++) {
+                    notebooks[i] = temp[i];
+                }
                 error = WriteFile(notebooks, SIZE);
                 if (error) {
                     printf("Ошибка: %s\n", error);
