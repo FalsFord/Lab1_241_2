@@ -74,7 +74,7 @@ double action(TFun ptrf, double xmin, double xmax, double xn, double xk, double 
                 l = ptrf(x);
                 xt = x;
             }
-        }
+        }   
     }
     return xt;
 }
