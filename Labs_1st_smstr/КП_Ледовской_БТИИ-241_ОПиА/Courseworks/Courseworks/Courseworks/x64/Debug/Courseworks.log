@@ -1,0 +1,8 @@
+﻿  coursework.c
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(32,15): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(32,13): warning C4047: =: "char *" отличается по уровням косвенного обращения от "int"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(68,5): warning C4047: return: "int **" отличается по уровням косвенного обращения от "int *"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(181,9): warning C4047: =: "char *" отличается по уровням косвенного обращения от "int"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(261,30): warning C4047: =: "char *" отличается по уровням косвенного обращения от "int"
+C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\coursework.c(272,30): warning C4047: =: "char *" отличается по уровням косвенного обращения от "int"
+  Courseworks.vcxproj -> C:\Student practicum\Lab1_241_2\Labs_1st_smstr\Coursework\Courseworks\Courseworks\x64\Debug\Courseworks.exe
